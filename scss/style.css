@@ -1,9 +1,52 @@
 @import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,300;0,400;1,500&display=swap");
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Bitter";
+.heroCatalogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: wheat;
+  height: 20vh;
+}
+
+.filtrados {
+  height: 25vh;
+  text-align: center;
+  background-color: black;
+  color: wheat;
+  padding: 20px 0 10px 0;
+}
+.filtrados #filtrarMarca {
+  border-left: 2px solid wheat;
+}
+.filtrados #filtrarMarca p {
+  font-size: 20px;
+}
+.filtrados #filtrarMarca #filtrado {
+  padding: 3px;
+}
+.filtrados #filtrarTipo p {
+  font-size: 20px;
+}
+.filtrados #filtrarTipo #filtrado {
+  padding: 3px;
+}
+
+#catalogoRopa {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  place-items: center;
+  margin-top: 40px;
+  gap: 40px;
+}
+#catalogoRopa .card {
+  text-align: center;
+  width: 200px;
+  height: 380px;
+}
+#catalogoRopa .card :hover {
+  transform: rotateZ(350deg);
+}
+#catalogoRopa .card .card-img-top {
+  height: 230px;
 }
 
 #hero {
@@ -85,7 +128,7 @@
   gap: 50px;
   justify-content: space-around;
 }
-#divMostrar .buttonBorrar, #divMostrar .buttonComprar {
+#divMostrar .buttonComprar {
   padding: 5px;
   margin-top: 10px;
   margin-bottom: 5px;
@@ -94,8 +137,19 @@
 .productos {
   padding: 10px;
   text-align: center;
-  border: 3px solid red;
+  border: 3px solid black;
   border-radius: 5px;
-  background-color: white;
+  background-color: #9BD1E5;
   width: 250px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Bitter";
+}
+
+.catalogoHeader {
+  padding-top: 15px;
 }/*# sourceMappingURL=style.css.map */

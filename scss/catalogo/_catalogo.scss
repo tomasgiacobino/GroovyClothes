@@ -1,0 +1,54 @@
+.heroCatalogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+    height: 20vh;
+}
+
+
+
+.filtrados{
+    height: 25vh;
+    text-align: center;
+    background-color: black;
+    color: wheat;
+    padding:20px 0 10px 0;
+
+    #filtrarMarca{
+        border-left: 2px solid wheat;
+        p{
+            font-size:20px;
+        }
+        #filtrado{
+            padding:3px;
+        }
+    }
+    #filtrarTipo{
+        p{
+            font-size: 20px;
+        }
+        #filtrado{
+            padding:3px
+        }
+    }
+}
+
+#catalogoRopa{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    place-items: center;
+    margin-top: 40px;
+    gap: 40px;
+        .card{
+            text-align: center;
+            width: 200px;
+            height: 380px;
+                :hover{
+                        transform: rotateZ(350deg);
+                }
+                .card-img-top{
+                    height: 230px;
+                }
+        }
+}

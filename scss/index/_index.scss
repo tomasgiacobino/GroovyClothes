@@ -1,0 +1,98 @@
+#hero{
+    background-image: url(../img/fondohero1.jpg);
+    background-size:contain;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    color: white;
+            h1{
+                padding-top: 30px;
+                font-size: 60px;
+                font-weight: 400;
+            }
+            h2{
+                padding-top: 130px;
+                font-size: 50px;
+                font-weight: 300;
+            }
+        
+}
+
+#cargarPrendas{
+    font-size: 15px;
+    margin-top:20px;
+    margin-bottom: 80px;
+    display: flex; 
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+        #formCargar{
+            .inputsCargar{
+                padding: 4px;
+            }
+        }
+}
+
+#divEliminar{
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+        #formEliminarID{
+            margin-top: 10px;
+            margin-bottom: 80px;
+                .buscadorID{
+                    font-size: 15px;
+                    margin-top: 10px;
+                    padding:5px;
+                }
+                .botonEliminar{
+                    font-size: 15px;
+                    padding: 5px;
+                }
+        }
+}
+
+#id-filtrarMarca{
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+        #formBuscar{
+            margin-top: 10px;
+            margin-bottom: 80px;
+                p{
+                    font-size: 20px;
+                }
+                .buscarMarca{
+                    font-size: 15px;
+                    margin-top: 10px;
+                    padding: 5px;
+                }
+        }
+}
+
+#divMostrar{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap:50px;
+    justify-content: space-around;
+
+        .buttonComprar{
+            padding:5px;
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+}
+
+.productos{
+    padding:10px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: #9BD1E5;
+    width: 250px;
+
+}
