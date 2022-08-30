@@ -4,55 +4,56 @@
         "titulo": "New Balance",
         "descripcion": "Zapatilla",
         "imagen": "../img/newBalanZapatillas.png",
-        "precio": 4772
+        "precio": 15000
+        
     },
     {
         "id": 2,
         "titulo": "Adidas",
         "descripcion": "Zapatilla",
         "imagen": "../img/zapatillasAdidas.png",
-        "precio": 1232
+        "precio": 15000
     },
     {
         "id": 3,
         "titulo": "Nike",
         "descripcion": "Pantalon",
         "imagen": "../img/nikePantalon.png",
-        "precio": 7662
+        "precio": 10000
     },
     {
         "id": 4,
         "titulo": "Puma",
         "descripcion": "Remera",
         "imagen": "../img/pumaRemera.png",
-        "precio": 4772
+        "precio": 5000
     },
     {
         "id": 5,
         "titulo": "Nike",
         "descripcion": "Zapatilla",
         "imagen": "../img/nikeZapatillas.png",
-        "precio": 1232
+        "precio": 20000
     },
     {
         "id": 6,
         "titulo": "Adidas",
         "descripcion": "Campera",
         "imagen": "../img/camperaAdidas.png",
-        "precio": 7662
+        "precio": 12000
     },
     {
-        "id": 5,
+        "id": 7,
         "titulo": "Under Armour",
         "descripcion": "Zapatilla",
         "imagen": "../img/uAzapatillas.png",
-        "precio": 1232
+        "precio": 17000
     },
     {
-        "id": 6,
+        "id": 8,
         "titulo": "The North Face",
         "descripcion": "Campera",
         "imagen": "../img/northFacecampera.png",
-        "precio": 7662
+        "precio": 30000
     }
 ]

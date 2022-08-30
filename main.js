@@ -240,7 +240,7 @@ function carritoHTML(lista){
 
     document.querySelectorAll(".btn-añadir").forEach(boton => boton.onclick = añadirCarrito);
     document.querySelectorAll(".btn-restar").forEach(boton => boton.onclick = restarCarrito);
-    document.querySelectorAll(".btn-borrar").forEach(boton => boton.onclick = borrarDelCarrito)
+    document.querySelectorAll(".btn-borrar").forEach(boton => boton.onclick = borrarDelCarrito);
 }
 // Fin Funcion para mostrar productos del carrito.
 
@@ -248,7 +248,6 @@ function carritoHTML(lista){
 function sumarCarrito(){
     let sumaCarrito = carrito.reduce((totalCompra,producto)=>totalCompra += producto.subTotal(),0);
     totalCarrito.innerHTML = `Total: ${sumaCarrito}`;
-
 }
 // Fin Funcion para ver el Total del carrito
 

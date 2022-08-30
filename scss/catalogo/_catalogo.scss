@@ -38,17 +38,16 @@
     display: grid;
     grid-template-columns: auto auto auto auto;
     place-items: center;
-    margin-top: 40px;
+    margin-top: 60px;
     gap: 40px;
         .card{
             text-align: center;
             width: 200px;
-            height: 380px;
                 :hover{
                         transform: rotateZ(350deg);
                 }
                 .card-img-top{
                     height: 230px;
                 }
-        }
+            }
 }
